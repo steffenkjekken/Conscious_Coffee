@@ -503,8 +503,13 @@ div.main-text:nth-child(3) > div:nth-child(2), div.main-text:nth-child(3) > div:
 
 #hero-shape img {
     clip-path: none;
+    object-position: 0 -80px;
 }
 
 #hero {
     display: grid;
     }
+
+footer {
+    margin-top: 30px;
+}
