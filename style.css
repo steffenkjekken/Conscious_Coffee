@@ -259,6 +259,10 @@ h3 {
     
 }
 
+.italic {
+    font-style: italic;
+}
+
 #main .shape {
     margin: -15px;
     padding-bottom: 15px;
