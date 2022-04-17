@@ -424,7 +424,7 @@ header .logo {
     width: 600px;
     justify-self: center;
     font-size: 68px;
-    margin-left: -500px;
+    left: 5%;
 }
 
 .herotext > p {
@@ -457,14 +457,16 @@ h2 {
 
 #main .shape {
     padding: 20px;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
 }
 
-#main .shape img, .organic .shape img  {
-    clip-path: polygon(89% 3.22%, 100% 57.67%, 73.68% 93.37%, 0px 80.67%, 32.7% 24.56%);
+#main .shape img  {
+    clip-path: polygon(80.75% 0.45%, 92.58% 67.67%, 50.17% 95.59%, 30px 81.23%, 25.04% 22.89%);
     object-position: center;
-    height: 265px;
-    width: 430px;
-    position: unset;
+    object-fit: cover;
+    height: 350px;
 }
 
 div.shape:nth-child(1) {
@@ -472,6 +474,10 @@ div.shape:nth-child(1) {
     display: inline-flex;
     padding: 20px;
 }
+
+#about > div:nth-child(2) > img:nth-child(1) {
+    height: 350px;
+    }
 
 div.main-text, div.organic, div.about {
     margin-top: 10px;
