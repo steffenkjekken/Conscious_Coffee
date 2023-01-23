@@ -1,6 +1,7 @@
 # Conscious_Coffee
 
 **Brief**
+
 Build an HTML website for an organic coffee company called ‘Conscious Coffee’. 
 The company has a number of coffee shops around Norway, and so the website has to be mobile responsive so that customers can find information about ‘Conscious Coffee’ on the go.
 
